@@ -2,7 +2,7 @@
 
 Welcome to the Eritrean and Ethiopian Students' Association Webpage website repository! This project serves as the online platform for the Eritrean and Ethiopian Students' Association organization, providing essential information and resources to the community.
 
-![EESAU Alberta Screenshot](https://github.com/sahaile/Eritrean-and-Ethiopian-Students-Association-Webpage/blob/main/WebpageHome.png
+![EESAU Alberta Screenshot](https://github.com/sahaile/Eritrean-and-Ethiopian-Students-Association-Webpage/blob/main/WebpageHome.png)
 
 
 ## Table of Contents
