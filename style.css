@@ -428,7 +428,7 @@ header{
     margin-left: 10%;
     margin-top: 4px;
     justify-content: space-between;
-    text-align: center; /* Centers text inside .eventPosters figcaption */
+    text-align: center; 
 }
 
 .eventPosters figcaption {
@@ -441,10 +441,10 @@ header{
 
 .eventPosters img {
     width:33%;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto; 
     margin-bottom: 5vh;
     width: 18vw;
-    display: block; /* Ensures margin: 0 auto; works correctly */
+    display: block; 
     border-radius: 15px;
     padding:20px;
 }
@@ -459,16 +459,14 @@ header{
     margin-top: 5vh;
     margin-bottom: 10vh;
     justify-content: space-between; 
-    border-top: 2px solid rgba(205, 155, 29, 0.5); 
     padding-top: 99px;
 }
 
 .calendar h1{
-    margin-top: 5vh;
     margin-bottom: 3vh;
     text-align: center;
     color: goldenrod;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .calendar h2{
@@ -758,17 +756,83 @@ header{
     width:90%;
     margin-left: 5%;
 }
-.opportunityBoard h2{
-    margin-top: 18vh;
-    text-align: center;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.585);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    width:90%;
+
+.opportunityPostersContainer {
+    display: flex;
+    flex-wrap: wrap; 
     margin-left: 5%;
-    margin-bottom: 50vh;
+    margin-top:10vh;
+    margin-bottom:10vh;
 }
+
+.opportunityBoardPoster {
+    position: relative;
+    justify-content: space-between;
+    width: 20vw; 
+    margin-right: 3vw;
+    overflow: hidden; 
+}
+
+.opportunityBoardPoster figcaption{
+    text-align: center; 
+    font-size: 1.2vw; 
+    color: goldenrod; 
+    margin-bottom: 5vh; 
+}
+
+.opportunityBoardPoster img {
+    width: 100%; 
+}
+
+.opportunityBoardPosterParagraph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    overflow: auto; 
+    padding:1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.585);
+}
+
+.opportunityBoardPosterParagraph h1 {
+    margin-top:0vh;
+    font-size: 1.3vw;
+    margin-bottom: 1vh;
+    font-weight: 200;
+}
+
+.opportunityBoardPosterParagraph h2 {
+    margin-top:1vh;
+    font-size: 1vw;
+    color:goldenrod;
+    text-align: center;
+    font-weight: 100;
+}
+
+.opportunityBoardPosterParagraph p {
+    margin-top:1vh;
+    font-size: 1vw;
+}
+
+.opportunityBoardPosterParagraph ul {
+    margin-left:2vw;
+    font-size: 1vw;
+    margin-top:1vh;
+}
+
+
+.opportunityBoardPoster:hover .opportunityBoardPosterParagraph {
+    opacity: 1;
+    background-color: rgb(255, 249, 232); 
+}
+
 
 .gallery #Title {
     margin-top: 15vh;
@@ -869,6 +933,11 @@ header{
 }
 
 @media (max-width: 800px) {
+    .opportunityBoardPoster figcaption {
+       font-size: 1.5vw;
+    }
+
+
     .injeranchill2019, .gala2019, .fallGameNight2024 {
         width: 70%;
         margin: 0 auto 7vh auto; /* Center and add bottom margin */
@@ -915,6 +984,49 @@ header{
 }
 
 @media (max-width:472px) {
+    .opportunityPostersContainer{
+        display:grid;
+        align-content: center;
+        justify-content:center;
+        margin-left:0;
+    }
+    
+    .opportunityBoardPoster{
+        width: 80vw;
+        height:auto;    
+        margin-bottom: 10vh;  
+        align-items: center;  
+        justify-content: center;
+    }
+
+    .opportunityBoardPoster img{
+        width: 100%;
+    }
+
+    .opportunityBoardPosterParagraph{
+        width: 100%;
+        padding:8vw;
+    }
+
+    .opportunityBoardPoster figcaption {
+       font-size: 5vw;
+       margin-left: 8vw;
+       margin-right: 8vw;
+    }
+
+    .opportunityBoardPoster h1{
+        font-size: 5vw;
+
+    }
+    .opportunityBoardPoster h2, .opportunityBoardPoster p{
+        font-size: 3.5vw;
+
+    }
+    .opportunityBoardPoster ul{
+        font-size: 3.5vw;
+        margin-left:5vw;
+    }
+
     .eesalogo h1{
         font-size: 2.1vw;
     }
