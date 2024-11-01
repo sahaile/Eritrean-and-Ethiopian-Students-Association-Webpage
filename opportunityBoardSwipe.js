@@ -1,5 +1,5 @@
 const posters = document.querySelectorAll('.opportunityBoardPoster');
-const swipeThreshold = 30; 
+const swipeThreshold = 60; 
 
 posters.forEach(poster => {
     let touchStartX = 0;
