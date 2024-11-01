@@ -30,31 +30,28 @@ header{
 }
 #menuDropdown {
     list-style: none;
-    display: none; /* Initially hidden */
+    display: none;     
     flex-direction: column;
     background-color: white;
     z-index: 1;
-    position: fixed; /* Fixed positioning */
-    top: 10vh; /* Start below the header */
-    height: 90vh; /* Fill the remaining height */
+    position: fixed;     
+    top: 10vh;     
+    height: 90vh;     
     width: 100%;
     right: 0;
     text-align: center;
-    overflow-y: auto; /* Allow scrolling if content overflows */
-}
+    overflow-y: auto; }
 
 #menuDropdown ul {
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-}
+    padding: 0;     
+    margin: 0; }
 
 #menuDropdown li {
-    border-bottom: 0.5px solid goldenrod; /* Optional */
-}
+    border-bottom: 0.5px solid goldenrod; }
 
 #menuDropdown a {
-    display: block; /* Make links fill their parent */
-    padding: 15px; /* Add some padding for clickable area */
+    display: block;     
+    padding: 15px;     
     color: rgb(205, 155, 29);
     text-decoration: none;
 }
@@ -260,14 +257,13 @@ header{
     cursor:pointer;
 }
 .missionStatement {
-    padding: 120px 40px; /* Adjust padding */
-    margin-top: 10vh; /* Space above */
-    display: flex; /* Flexbox for alignment */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    padding: 120px 40px;    
+    margin-top: 10vh;     
+    display: flex;     
+    flex-direction: column;     
+    align-items: center;     
     background-color: rgb(255, 252, 246);
-    text-align: center; /* Center text */
-}
+    text-align: center; }
 
 .missionStatement h1 {
     margin-top: 0; 
@@ -293,22 +289,18 @@ header{
     margin-top: 20vh;
     width: 90%;
     margin-left: 5%;
-    display: flex; /* Use flexbox */
-}
+    display: flex; }
 
 .newsletterpics {
     width: 50%;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
-}
+    flex-wrap: wrap; }
 
 .newsletterPics1,
 .newsletterPics3,
 .newsletterPics5 {
-    width: 50%; /* Each pic takes half of the container width */
-    margin-bottom: 4vh;
-    box-sizing: border-box; /* Include border in width calculation */
-}
+    width: 50%;     margin-bottom: 4vh;
+    box-sizing: border-box; }
 
 .newsletterPics2,
 .newsletterPics4,
@@ -536,50 +528,44 @@ header{
 
 .teamPhotos {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    flex-wrap: wrap;     
     width: 90vw;
     margin-left: 5vw;
     margin-top: 5vh;
-    justify-content: space-between; /* Distribute space evenly */
-}
+    justify-content: space-between; }
 
 .teamMember {
     text-align: center; 
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
-    justify-content: space-between; /* Space between image and email */
+    display: flex;     
+    flex-direction: column;     
+    align-items: center;     
+    justify-content: space-between;     
     margin: 7px;
-    width: 17vw; /* Adjust as needed */
-    border: 2px solid transparent; /* Optional: Add border for consistency */
-}
+    width: 17vw;     
+    border: 2px solid transparent; }
 
 .teamPhotos img {
-    width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;     
+    height: auto;     
     display: block; 
     border-radius: 20px;
-    margin-bottom: 20px; /* Space between image and email */
-}
+    margin-bottom: 20px; }
 
 .teamPhotos img:hover {
-    transform: scale(1.1); /* Slight zoom on hover */
-    transition: transform 0.3s; /* Smooth transition */
-}
+    transform: scale(1.1);     
+    transition: transform 0.3s;  }
 
 .teamPhotos a {
-    font-size: 1.2vw; /* Responsive font size */
+    font-size: 1.2vw;      
     color: goldenrod; 
     text-decoration: none; 
     display: block; 
-    margin-bottom: 30px; /* Space between email link and bottom */
-    margin-top: auto; /* Push email link to bottom if space allows */
-}
+    margin-bottom: 30px;     
+     margin-top: auto;  }
 
 
 .teamPhotos a:hover {
-    color: black; /* Keep color on hover */
-}
+    color: black;  }
 
 .teamButton{
     margin-top: 5vh;
@@ -617,36 +603,33 @@ header{
 }
 .businessTypes {
     display: flex;
-    justify-content: space-evenly; /* Evenly distribute buttons */
-    flex-wrap: wrap; /* Allow wrapping */
-    margin-top: 5vh; /* Spacing from top */
-    width: 50%; /* Width of the container */
-    margin-left: 25%; /* Center the container */
-    text-align: center; /* Center text */
-    color: goldenrod; /* Text color */
-    border-radius: 10px; /* Rounded corners */
-}
+    justify-content: space-evenly;      
+    flex-wrap: wrap;      
+    margin-top: 5vh;      
+    width: 50%;      
+    margin-left: 25%;      
+    text-align: center;      
+    color: goldenrod;      
+    border-radius: 10px;  }
 
 .businessTypes div {
     display: flex;
-    flex-direction: column; /* Stack icon above text */
-    align-items: center; /* Center content */
-    justify-content: center; /* Center content */
-    width: 6vw; /* Fixed width for consistency */
-    padding: 8px 0 8px 0; /* Padding inside button */
-    border: 2px solid; /* Border around button */
-    border-color: rgb(239, 192, 74); /* Border color */
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 1vh; /* Spacing below buttons */
-    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
-}
+    flex-direction: column;      
+    align-items: center;     
+    justify-content: center;     
+    width: 6vw;     
+    padding: 8px 0 8px 0;     
+    border: 2px solid;    
+    border-color: rgb(239, 192, 74);     
+    border-radius: 10px;     
+    margin-bottom: 1vh;     
+    transition: background-color 0.3s, transform 0.2s; }
 
 .businessTypes div:hover {
-    background-color: goldenrod; /* Background color on hover */
-    color: white; /* Text color on hover */
-    cursor: pointer; /* Pointer cursor on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
-}
+    background-color: goldenrod;    
+    color: white;     
+    cursor: pointer;     
+    transform: scale(1.05); }
 
  .businessTypes #AllButton:hover h2, 
 .businessTypes #HairButton:hover h2, 
@@ -658,18 +641,16 @@ header{
 }
 
 .businessTypes ion-icon {
-    text-align: center; /* Center align icon */
-    font-size: 1.5vw; /* Icon size */
-}
+    text-align: center;     
+    font-size: 1.5vw; }
 .businessTypes h2 {
     display:none;
-    color: goldenrod; /* Text color */
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font family */
-    font-weight: 100; /* Light font weight */
-    font-size: 1vw; /* Font size in viewport width units */
-    margin: 0; /* Remove default margin */
-    margin-left: 0.5vw; /* Margin for spacing */
-}
+    color: goldenrod;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    font-weight: 100;     
+    font-size: 1vw;     
+    margin: 0;    
+    margin-left: 0.5vw; }
 
 .businessContainer{
     display: flex;
@@ -765,7 +746,7 @@ header{
     margin-bottom:10vh;
 }
 
-.opportunityBoardPoster {
+.opportunityBoardPoster{
     position: relative;
     justify-content: space-between;
     width: 20vw; 
@@ -785,20 +766,21 @@ header{
 }
 
 .opportunityBoardPosterParagraph {
-    position: absolute;
-    top: 0;
+    position: absolute; 
+    top: 0; 
     left: 0;
     right: 0;
     bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    opacity: 0;
+    opacity: 0; 
     transition: opacity 0.3s ease;
-    overflow: auto; 
-    padding:1.5vw;
+    padding: 1.5vw;
     font-family: 'Courier New', Courier, monospace;
     color: rgba(0, 0, 0, 0.585);
+    background-color: rgb(255, 252, 243);
+    overflow: scroll;
 }
 
 .opportunityBoardPosterParagraph h1 {
@@ -830,7 +812,6 @@ header{
 
 .opportunityBoardPoster:hover .opportunityBoardPosterParagraph {
     opacity: 1;
-    background-color: rgb(255, 249, 232); 
 }
 
 
@@ -845,8 +826,8 @@ header{
 
 .galleryBins {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
-    justify-content: center; /* Center items when they wrap */
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 
@@ -856,19 +837,19 @@ header{
 }
 
 .galleryrightside {
-    width: 50%; /* Original width for larger screens */
-    display: flex; /* Make it a flex container */
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    padding: 10px; /* Optional padding */
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
 }
 
 .injeranchill2019, .gala2019, .fallGameNight2024{
-    display: flex; /* Ensure it's a flex container */
-    flex-direction: row; /* Original direction */
-    align-items: center; /* Center items vertically */
-    width: 60%; /* Original width for larger screens */
+    display: flex;  
+    flex-direction: row; 
+    align-items: center;
+    width: 60%; 
     margin-bottom: 7vh;
     border: 3px solid rgba(218, 165, 32, 0.693);
     border-radius: 20px;
@@ -940,41 +921,41 @@ header{
 
     .injeranchill2019, .gala2019, .fallGameNight2024 {
         width: 70%;
-        margin: 0 auto 7vh auto; /* Center and add bottom margin */
+        margin: 0 auto 7vh auto; 
         border: 3px solid rgba(218, 165, 32, 0.693);
         border-radius: 20px;
-        display: flex; /* Ensure it's a flex container */
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center all child elements */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .injeranchill2019 img, .gala2019 img, .fallGameNight2024 img{
-        width: 100%; /* Full width of the container */
-        height: 25vh; /* Maintain a fixed height */
-        border-radius: 18px 18px 0 0; /* Round the top corners */
+        width: 100%;
+        height: 25vh;
+        border-radius: 18px 18px 0 0;
     }
 
     .galleryrightside {
-        width: 100%; /* Full width */
-        display: flex; /* Ensure it's a flex container */
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center items */
-        justify-content: center; /* Center items vertically */
-        padding: 10px; /* Optional padding */
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        padding: 10px;
     }
 
     .injeranchill2019 h1, .gala2019 h1, .fallGameNight2024 h1 {
-        font-size: 3vw; /* Responsive font size */
-        text-align: center; /* Center the heading */
-        margin-bottom: 1vh; /* Space below the heading */
+        font-size: 3vw;         
+        text-align: center;         
+        margin-bottom: 1vh;     
     }
 
     .injeranchill2019 button, .gala2019 button, .fallGameNight2024 button{
-        margin: 1vh 0 0 0; /* Add space above the button */
-        font-size: 1.5vw; /* Responsive font size */
-        padding: 8px; /* Padding for button */
-        width: 20vw; /* Set button width */
-        border-radius: 30px; /* Add rounded corners */
+        margin: 1vh 0 0 0;         
+        font-size: 1.5vw;         
+        padding: 8px;        
+        width: 20vw;         
+        border-radius: 30px;     
     }
 
     .businessTypes ion-icon{
@@ -984,6 +965,28 @@ header{
 }
 
 @media (max-width:472px) {
+    .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 7px;
+        width: 7px;
+        background-color: #999;
+        border-radius: 50%;
+        transition: background-color 0.6s ease;
+        margin: 0 5px;
+    }
+
+    .active, .dot:hover {
+        background-color: #555;
+    }
+
     .opportunityPostersContainer{
         display:grid;
         align-content: center;
