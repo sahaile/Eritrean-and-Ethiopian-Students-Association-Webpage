@@ -831,7 +831,7 @@ header{
 }
 
 
-.injeranchill2019 img, .gala2019 img, .fallGameNight2024 img {
+.galleryBins img {
     width: 50%;
     border-radius: 18px 0 0 18px;
 }
@@ -845,7 +845,7 @@ header{
     padding: 10px;
 }
 
-.injeranchill2019, .gala2019, .fallGameNight2024{
+#bin {
     display: flex;  
     flex-direction: row; 
     align-items: center;
@@ -856,7 +856,7 @@ header{
 }
 
 
-.injeranchill2019 h1, .gala2019 h1 ,.fallGameNight2024 h1{
+.galleryBins h1{
     font-size: 2vw;
     text-align: center;
     text-wrap: nowrap;
@@ -866,7 +866,7 @@ header{
     margin-bottom: 4vh;
 }
 
-.injeranchill2019 button, .gala2019 button, .fallGameNight2024 button {
+.galleryBins button {
     width: 10vw;
     color: rgba(0, 0, 0, 0.585);
     font-weight: 100;
@@ -878,7 +878,7 @@ header{
     border-radius: 30px;
 }
 
-.injeranchill2019 button:hover, .gala2019 button:hover, .fallGameNight2024 button:hover {
+.galleryBins button:hover{
     color: rgb(216, 185, 106);
     cursor: pointer;
 }
@@ -919,7 +919,7 @@ header{
     }
 
 
-    .injeranchill2019, .gala2019, .fallGameNight2024 {
+    #bin {
         width: 70%;
         margin: 0 auto 7vh auto; 
         border: 3px solid rgba(218, 165, 32, 0.693);
@@ -929,7 +929,7 @@ header{
         align-items: center;
     }
 
-    .injeranchill2019 img, .gala2019 img, .fallGameNight2024 img{
+    .galleryBins img{
         width: 100%;
         height: 25vh;
         border-radius: 18px 18px 0 0;
@@ -944,13 +944,13 @@ header{
         padding: 10px;
     }
 
-    .injeranchill2019 h1, .gala2019 h1, .fallGameNight2024 h1 {
+    .galleryBins h1 {
         font-size: 3vw;         
         text-align: center;         
         margin-bottom: 1vh;     
     }
 
-    .injeranchill2019 button, .gala2019 button, .fallGameNight2024 button{
+    .galleryBins button{
         margin: 1vh 0 0 0;         
         font-size: 1.5vw;         
         padding: 8px;        
